@@ -1,0 +1,9 @@
+*, :after, :before { box-sizing: border-box; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #8B8B8B;
+    font-size: 16px;
+
+    background-color: #FAFAFA;
+}
