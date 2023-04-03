@@ -41,7 +41,7 @@ h2 {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    padding: 11px 20px 10px 20px;
+    padding: 11px 30px 10px 30px;
     border-radius: 20px;
 }
 
@@ -58,7 +58,7 @@ h2 {
 
 .grey {
     background-color: #8B8B8B;
-    max-width: 228px;
+    max-width: 231px;
     margin: 0 auto;
 }
 
@@ -111,7 +111,7 @@ h2 {
     }
 
     .button {
-        flex: 0 0 40%;
+        flex: 0 0 50%;
         height: 40px;
         margin: 0;
     }
@@ -149,3 +149,82 @@ h2 {
 
 
 
+/* ********* Verze PC ********* */
+
+@media screen and (min-width: 1100px) {
+    body {
+        padding: 60px;
+    }
+    
+    .section {
+        display: flex;
+        padding-bottom: 80px;
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+
+    .one {
+        text-align: left;
+        gap: 60px;
+    }
+
+    .image {
+        flex: 1 1 calc(45% - 30px);
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .text-but {
+        flex: 1 1 calc(45% - 30px);
+        order: 1;
+        text-align: left;
+        width: 100%;
+    }
+
+    .buttons {
+        justify-content: left;
+        text-align: center;
+    }
+
+    .grey
+
+
+    .two {
+        text-align: left;
+        gap: 60px;
+    }
+
+    .text {
+        flex: 1 1 calc(50% - 60px);
+        text-align: left;
+        order: 2;
+        width: 100%;
+    }
+
+    .two .text {
+        margin-left: 60px;
+    }
+
+    .container {
+        flex: 1 1 calc(50% + 60px);
+        order: 1;
+    }
+
+    .icon {
+        text-align: center;
+    }
+
+    .tree {
+        padding-bottom: 0;
+    }
+
+    .tree .text {
+        order: 1;
+        margin-right: 60px;
+    }
+
+    .tree .container {
+        order: 2;
+    }
+
+}
