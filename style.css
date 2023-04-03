@@ -30,6 +30,10 @@ h2 {
     margin: 60px 0 20px 0;
 }
 
+.text-main p {
+    margin-bottom: 30px;
+}
+
 .buttons a {
     display: block;
     text-decoration: none;
@@ -37,21 +41,29 @@ h2 {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    padding: 10px 30px;
+    padding: 11px 20px 10px 20px;
     border-radius: 20px;
 }
 
 .blue {
     background-color: #407BFF;
     margin-bottom: 10px;
-    width: 196px;
+    max-width: 196px;
     margin: 10px auto;
+}
+
+.blue:hover {
+    background-color: #6292FF;
 }
 
 .grey {
     background-color: #8B8B8B;
-    width: 226px;
+    max-width: 228px;
     margin: 0 auto;
+}
+
+.grey:hover {
+    background-color: #9C9C9C;
 }
 
 .text p {
@@ -64,7 +76,7 @@ h2 {
     justify-content: center;
     align-items: center;
 
-    color: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0px 4px 6px #407BFF1F;
     margin-bottom: 15px;
@@ -84,3 +96,56 @@ h2 {
     text-align: left;
     margin-left: 10px;
 }
+
+
+
+/* ********* Verze TABLET ********* */
+
+@media screen and (min-width: 640px) {
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .button {
+        flex: 0 0 40%;
+        height: 40px;
+        margin: 0;
+    }
+
+    .text {
+        width: 77%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .text p {
+        margin: 20px 0 40px 0;
+    }
+
+    .container {
+        display: flex;
+        gap: 20px;
+    }
+
+    .box {
+        display: block;
+        padding: 40px 20px;
+        margin-bottom: 0;
+    }
+
+    .icon {
+        padding: 0;
+    }
+
+    .text-inside {
+        text-align: center;
+    }
+
+}
+
+
+
