@@ -73,17 +73,17 @@ h2 {
 
 .box {
     display: flex;
-    justify-content: center;
     align-items: center;
-
     background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0px 4px 6px #407BFF1F;
     margin-bottom: 15px;
+    gap: 25px;
+    padding: 20px;
 }
 
 .icon {
-    padding: 20px;
+    padding: 0px;
 }
 
 .icon img {
@@ -94,7 +94,6 @@ h2 {
     color: #8B8B8B;
     font-size: 13px;
     text-align: left;
-    margin-left: 10px;
 }
 
 
